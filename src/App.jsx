@@ -51,7 +51,7 @@ function App() {
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-        style={{ width: "80%", padding: 10, border: '2px solid green', borderRadius: '8px', color: '#cccccc' }}
+        style={{ width: "80%", padding: 10, border: '1px solid green', borderRadius: '8px', color: '#000' }}
       />
 
 <button 
